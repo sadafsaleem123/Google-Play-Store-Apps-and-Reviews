@@ -61,6 +61,7 @@ plotly.offline.iplot(data)
 
 # Average rating of apps
 avg_app_rating = apps['Rating'].mean()
+
 print('Average app rating = ', avg_app_rating)
 
 # Distribution of apps according to their ratings
